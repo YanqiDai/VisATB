@@ -1,6 +1,7 @@
 # VisATB
 
 Official implementation of "*Adaptive Task Balancing for Visual Instruction Tuning via Inter-Task Contribution and Intra-Task Difficulty*", which has been accepted by WWW 2026.
+Paper Link: https://arxiv.org/abs/2403.04343.
 
 ## Introduction
 
@@ -9,8 +10,6 @@ Visual instruction tuning is a key training stage of large multimodal models. Ho
 
 Comparative results on the Academic Benchmark:
 ![](assets/results.jpg)
-
-Please refer to our paper for more details: https://arxiv.org/abs/2403.04343.
 
 ## Code and Datasets
 
