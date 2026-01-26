@@ -1,0 +1,71 @@
+# ======================
+# Core DL Stack (PINNED)
+# ======================
+torch==2.4.0+cu124
+torchvision==0.19.0+cu124
+torchaudio==2.4.0+cu124
+
+transformers==4.31.0
+deepspeed==0.9.5
+accelerate==0.21.0
+tokenizers==0.13.3
+
+bitsandbytes==0.45.5
+flash-attn==2.3.6
+triton==3.0.0
+
+# ======================
+# Parameter-efficient / Training Utils
+# ======================
+peft>=0.4.0
+einops>=0.6.0
+einops-exts>=0.0.4
+
+# ======================
+# HF / Data
+# ======================
+datasets>=2.14.0
+huggingface-hub>=0.17.0
+sentencepiece>=0.1.99
+safetensors>=0.4.0
+
+# ======================
+# Vision / Multimodal
+# ======================
+timm>=0.6.0
+Pillow>=9.0.0
+opencv-python>=4.8.0; platform_system!="Linux"
+
+# ======================
+# Evaluation
+# ======================
+scikit-learn>=1.1
+scipy>=1.10
+numpy>=1.23
+pandas>=1.5
+
+bert-score
+pycocotools
+pycocoevalcap
+
+# ======================
+# Logging / UI
+# ======================
+wandb>=0.15
+gradio>=3.30
+
+# ======================
+# Web / API (optional)
+# ======================
+fastapi
+uvicorn
+aiohttp
+requests
+
+# ======================
+# Utilities
+# ======================
+tqdm
+regex
+jsonlines
+pyyaml
