@@ -11,6 +11,16 @@ Visual instruction tuning is a key training stage of large multimodal models. Ho
 Comparative results on the Academic Benchmark:
 ![](assets/results.jpg)
 
-## Code and Datasets
+## Data Download
 
-The code and datasets will be made publicly available soon.
+Download the annotation files from [Modelscope](https://modelscope.cn/datasets/YechielDai/VisATB) and place them in the `data/` folder. Download the images from [LLaVA-v1.5](https://github.com/haotian-liu/LLaVA?tab=readme-ov-file#visual-instruction-tuning) and [M3IT](https://huggingface.co/datasets/MMInstruction/M3IT), and place them in the `data/images/` folder.
+
+## Setup environment
+
+```
+conda create -n visatb python=3.10
+conda activate visatb
+git clone https://github.com/YanqiDai/VisATB.git
+cd VisATB
+pip install -r requirements.txt
+```
