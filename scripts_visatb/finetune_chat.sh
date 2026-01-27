@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BASE_MODEL_PATH=""
+BASE_MODEL_PATH="lmsys/vicuna-7b-v1.5"
 DATA_PATH=""
 IMAGE_FOLDER=""
 WEIGHT_METHOD="EW"

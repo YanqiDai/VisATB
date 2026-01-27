@@ -1895,13 +1895,6 @@ class Trainer:
                         # Delay optimizer scheduling until metrics are generated
                         if not isinstance(self.lr_scheduler, torch.optim.lr_scheduler.ReduceLROnPlateau):
                             self.lr_scheduler.step()
-
-                    model.zero_grad()
-                    if "FAMO" in self.weighter.name:
-                        with torch.no_grad():
-                            inputs = self._prepare_inputs(inputs)
-                            outputs = model(self.weighter, **inputs)
-                            self.weighter.update()
                     
                     model.zero_grad()
                     self.state.global_step += 1
