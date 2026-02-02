@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.jpg" width="180px">
+</p>
+
 <h1 align="center" style="margin-top: 10px;">Adaptive Task Balancing for Visual Instruction Tuning via Inter-Task Contribution and Intra-Task Difficulty</h1>
 
 <p align="center">
@@ -18,7 +22,7 @@
 
 [![](https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv)](https://arxiv.org/abs/2403.04343)
 [![](https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-Paper-yellow)](https://huggingface.co/papers/2403.04343)
-[![](https://img.shields.io/badge/%F0%9F%A4%97_HuggingFace-Data-blue)]()
+[![](https://img.shields.io/badge/%F0%9F%A4%97_HuggingFace-Data-blue)](https://huggingface.co/datasets/YanqiDai/VisATB)
 
 </div>
 
